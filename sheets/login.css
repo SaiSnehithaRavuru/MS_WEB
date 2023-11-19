@@ -1,0 +1,79 @@
+
+form {
+  top:50%;
+  text-align:center;
+  width:350px;
+  height:300px;
+  position:absolute;
+  left:50%;
+  transform: translate(-50%,-50%);
+  -webkit-box-shadow: -14px 6px 37px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -14px 6px 37px 0px rgba(0,0,0,0.75);
+box-shadow: -14px 6px 37px 0px rgba(0,0,0,0.75);
+ transform:translate(60%,-30%);
+}
+
+h1{
+  
+   font-family: sans-serif;
+   text-shadow:0px 3px 4px grey;
+   color:black;
+   font-style:oblique;
+}
+
+form input[type="email"]{
+   text-align:center;
+ display: block;
+  width: 70%;
+  height: 50px;
+  border-radius: 30px;
+  border: solid;
+  transform:translate(20%,30%);
+  outline:none;
+  background:none;
+   font-size:1.3em;
+   
+}
+form input[type="Password"]{
+   text-align:center;
+ display: block;
+  width: 70%;
+  height: 50px;
+  border-radius: 30px;
+  border: solid;
+  transform:translate(20%,20%);
+  outline:none;
+  background:none;
+  font-size:1.3em;
+}
+form input[type="Email"]:focus,form input[type="Password"]:focus{
+    width:80%;
+    border-color:pink;
+    transition:0.25s;
+   
+}
+
+button{
+  text-align:center;
+ display: block;
+  width: 70%;
+  height: 50px;
+  border-radius: 30px;
+  border: none;
+  background:black;
+  transform: translate(20%,30%);
+  outline:none;
+  color:white;
+}
+body{
+    background-image:url(pb3.jpeg);
+    background-size:100%,100%;
+}
+ i{
+    transform:translate(-600%,300%);
+    
+}
+p{
+    color:black;
+    transform:translate(70%,10%);
+}

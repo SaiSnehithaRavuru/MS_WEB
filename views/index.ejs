@@ -1,0 +1,19 @@
+	<div class ="ui fixed inverted menu">
+			<div class = "ui container">
+				<div class ="header item"><i class="code icon"></i>BLOG SITE</div>
+				<a href="/" class="item">Home</a>
+				<a href="/blogs/new" class="item">New POST</a>
+			</div>
+		</div>
+		<%- include('partials/header') %>
+<h1>Index Page</h1>
+<% blogs.forEach(function(blog){ %>
+    <div>
+        <h2><%= blog.Title %></h2>
+        <img src ="<%= blog.image %>">
+        <span><%= blog.created %></span>
+        <p><%= blog.body %></p>
+    </div>
+    <% }) %>
+   </body>
+</html>

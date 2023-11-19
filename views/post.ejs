@@ -1,0 +1,26 @@
+
+<title>POST</title>
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+	<link rel="stylesheet" type="text/css" href="app.css">
+	
+ <div class="ui fixed inverted menu">
+            <div class="ui container">
+                <div class="header item"><i class="code icon"></i>BLOG SITE</div>
+                <a href="/blogs/new" class="item">NEW BLOG</a>
+                 <a href="/homepage" class="ui red button">
+      HOME
+    </a>  
+            </div>
+     </div>
+  </div>
+ 
+  <p>WELCOME TO THE BLOGPAGE</p>
+  <% blogs.forEach(function(blog){ %>
+     <div id="det">
+         <h2><%= blog.Title %></h2>
+          <img id="pic" src="<%=blog.image %>" >
+          <span><%=blog.created %></span>
+         <p><%= blog.body %></p>
+         <a href="/blogs/<%= blog._id %>">Read more</a>
+     </div>
+ <% }) %>

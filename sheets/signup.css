@@ -1,0 +1,61 @@
+form{
+   top: 80%;
+  text-align:center;
+  width: 450px;
+  height:770px;
+  position:absolute;
+  left: 50%;
+  transform: translate(-10%,-50%);
+  
+    -webkit-box-shadow: -14px 15px 20px 0px rgba(0,0,0,0.33);
+-moz-box-shadow: -14px 15px 20px 0px rgba(0,0,0,0.33);
+box-shadow: -14px 15px 20px 0px rgba(0,0,0,0.33);
+border-radius: 10px 10px 10px 10px;
+
+
+}
+h1{
+  text-align:center;
+  text-decoration:underline;
+   font-family: Impact,Charcoal,sans-serif;
+   text-shadow:0px 3px 4px grey;
+}
+
+form input[type="email"],form input[type="password"],form input[type="username"],form input[type="text"],form input[type="number"],form input[type="date"]{
+text-align:center;
+ display: block;
+  width: 60%;
+  height: 50px;
+  border-radius: 30px;
+  border: solid;
+  transform:translate(20%,20%);
+  outline:none;
+  background:none;
+  font-size:1.3em;
+}
+form input[type="email"]:focus,form input[type="password"]:focus,form input[type="username"]:focus,form input[type="text"]:focus,form input[type="number"]:focus,form input[type="date"]:focus{
+    width:80%;
+    border-color:pink;
+    transition:0.25s;
+    
+}
+button{
+  text-align:center;
+ display: block;
+  width: 70%;
+  height: 50px;
+  border-radius: 30px;
+  border: none;
+  background:black;
+  transform: translate(20%,30%);
+  outline:none;
+  color:white;
+}
+
+body{
+    background-image:url("pb10.jpeg");   
+    background-size:100%,100%;
+}
+#gender{
+    transform:translate(-10%,0%)
+}

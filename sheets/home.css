@@ -1,0 +1,77 @@
+
+p{
+  background-color:none ;
+  color: white;
+  padding: 5px;
+  border: 10px,black;
+  margin: 5px,auto;
+  width:30%;
+  height:40%;
+  transform:translate(150%,20%);
+  font-style:oblique;
+  font:serif;
+}
+a{
+ 
+  color: black;
+  padding: 5px;
+  border: 10px,black;
+  margin: 5px,auto;
+
+
+}
+
+p{
+  font-family: sans-serif;
+  text-transform: uppercase;
+
+}
+#main-header{
+background: #304352;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #d7d2cc, #304352);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #d7d2cc, #304352); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+-webkit-box-shadow: -14px 6px 37px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -14px 6px 37px 0px rgba(0,0,0,0.75);
+box-shadow: -14px 6px 37px 0px rgba(0,0,0,0.75);
+ transform:translate(60%,-30%);
+  color: white;
+  font-family: Impact,Charcoal,sans-serif;
+  padding: 300px,300px;
+  text-align: center;
+  border-radius: 25px;
+  width: 350px;
+  left: 50%;
+  transform: translate(160%,0%);
+
+}
+
+
+
+a:hover{
+  background-color: none;
+  color: none;
+  
+}
+
+
+
+body{
+  background-image: url(pa6.jpeg);
+  background-size:100%,100%;
+
+}
+#sb button{
+  text-align:center;
+ display: block;
+  width: 20%;
+  height: 50px;
+  border-radius: 30px;
+  border: none;
+  background:black;
+  transform: translate(230%,10%);
+  outline:none;
+  color:white;
+  font:serif;
+  font-style:oblique;
+}
+

@@ -1,0 +1,35 @@
+<%- include('partials/header') %>
+	<div class="ui inverted segment">
+  <div class="ui inverted secondary pointing menu">
+  	<div id="logo">
+  	<div class="header item"><i class="hotjar icon"></i><a href="/">MS WEB</a></div></div>
+    <a href="/"class=" item">
+      Home
+    </a>
+    <a href="/about" class="item">
+    	About
+    </a>
+    <div class="right menu">
+    <a href="/signup" class="item">
+      <div class="ui primary button">Signup</div>
+    </a>
+
+     </div>
+  </div>
+  </div>
+<link rel="stylesheet" type="text/css" href="login.css">
+<form action="/login" method="POST">
+    <h1>LOGIN</h1>
+ <div id="user">
+     <i class="user icon"></i>
+     <input type="Email" name="username" placeholder="USERNAME">
+   </div>
+  
+  <div id="pass">
+   <i class ="key icon"></i>
+    <input type="Password" name="password" placeholder="Password">
+  </div>
+  <button>LOGIN</button>
+  </div><br>
+  <p>ToRegister<a href="/signup">SIGNUP</a></p>
+</form>

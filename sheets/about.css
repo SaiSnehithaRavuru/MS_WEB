@@ -1,0 +1,48 @@
+#me{
+  position: relative;
+  animation-name: anime;
+  animation-duration: 2s;
+  animation-delay: 1s;
+  animation-iteration-count: 2;
+}
+#snehi{
+  position: relative;
+  animation-name: anim;
+  animation-duration: 2s;
+  animation-delay: 1s;
+  animation-iteration-count: 2;
+
+}
+
+
+
+
+@keyframes anim {
+  0%{left: 300px;top: 0px;}
+  50%{left: 0px;top: 0px;}
+  100%{left: 300px;top: 0px;}
+}
+
+@keyframes anime {
+  0%{left: 0px;top: 0px;}
+  50%{left: 300px;top: 0px;}
+  100%{left: 0px;top: 0px;}
+}
+body{
+    background-image:url(pb2.jpeg);
+    background-size:100%,100%;
+}
+h1{
+  color:red;
+  transform:translate(0%,20%);
+}
+p{
+  color:black;
+  padding :10px,auto;
+  width:30%;
+   font:serif;
+  height:60%;
+  left:80%;
+  transform:translate(0%,0%);  
+  font-style: oblique
+}

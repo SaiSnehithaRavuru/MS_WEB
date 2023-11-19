@@ -1,0 +1,52 @@
+<%- include('partials/header') %>
+	<div class="ui inverted segment">
+  <div class="ui inverted secondary pointing menu">
+  	<div id="logo">
+  	<div class="header item"><i class="hotjar icon"></i><a href="/">MS WEB</a></div></div>
+    <a href="/"class=" item">
+      Home
+    </a>
+    <a href="/about" class="item">
+    	About
+    </a>
+    <div class="right menu">
+    <a href="/login "class="item">
+      Login
+    </a>
+
+     </div>
+  </div>
+  </div>
+
+<link rel="stylesheet" type="text/css" href="signup.css">
+<form action="/signup" method="POST">
+    <input type="text" name="firstname" placeholder="Firstname" required
+    oninvalid="this.setCustomValidity('U forgot to enter ur FIRST NAME')"
+    oninput="this.setCustomValidity('')"><br>
+    <input type="text" name="lastname" placeholder="Lastname" required
+    oninvalid="this.setCustomValidity('U forgot to enter ur LAST NAME')"
+    oninput="this.setCustomValidity('')"><br>
+    	<strong>GENDER</strong><br>
+    	<label>Male</label>
+    	<input type="radio" name="gender" value="Male"required>
+    	<label>female</label>
+    	<input type="radio" name="gender" value="Female"required>
+        <label>Others</label>
+    	<input type="radio" name="gender" value="Others"required><br>
+    
+      <input type="Email" name="username" placeholder="Username" required
+      oninvalid="this.setCustomValidity(' Enter a Valid one BABE!!')"
+    oninput="this.setCustomValidity('')"><br>
+    <input type="password" name="password" placeholder="Password" pattern=".{8,}" title="Require Atleat 8 charachters" required
+    oninvalid="this.setCustomValidity('Require atleast 8 characters')"
+    oninput="this.setCustomValidity('')"><br>
+    
+     <input type="text" name="phone" placeholder="Mobile Number" pattern="[+][9][1][6-9]{1}[0-9]{9}" title="Enter valid one" required
+     oninvalid="this.setCustomValidity('Dont fool us...Try a Valid phone number')"
+    oninput="this.setCustomValidity('')"><br>
+     	<input  type="date" name="Birthday" placeholder="date-of-birth" min="1950-01-01" max="2013-12-12" required><br>
+     
+   <input type="checkbox" required> <label>I agree to the Terms and Conditions</label><br>
+    <button type="Submit">SUBMIT</button><br>
+  <div id="ll">Already registered..?<a href="/login">to login</a></div>
+</form>
